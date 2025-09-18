@@ -150,7 +150,7 @@ cameras:
   garage_west:
     ffmpeg:
       inputs:
-        - path: rtsp://admin:6yxlSXyvi6zmAcc@192.168.1.251:554/Preview_01_sub
+        - path: rtsp://admin:@192.168.1.251:554/Preview_01_sub
           roles:
             - detect
             - record
@@ -236,7 +236,7 @@ cameras:
   backyard:
     ffmpeg:
       inputs:
-        - path: rtsp://admin:6yxlSXyvi6zmAcc@192.168.1.223:554/Preview_01_sub
+        - path: rtsp://admin:@192.168.1.223:554/Preview_01_sub
           roles:
             - detect
             - record
